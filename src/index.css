@@ -5,3 +5,64 @@
 h1 {
   color: rgb(123, 184, 31);
 }
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  background-color: rgb(211, 186, 255);
+  max-width: 800px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 30px;
+  border-radius: 16px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.images img {
+  max-width: 250px;
+  margin: 5px;
+}
+.about-the-artist {
+  padding: 20px;
+  font-size: 24px;
+}
+.button-links {
+  padding: 20px;
+}
+.fiverr {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 16px;
+  transition: all 200ms ease-in-out;
+  width: 300px;
+}
+.portfolio {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 16px;
+  transition: all 200ms ease-in-out;
+  width: 300px;
+}
+.contact-me-button {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 16px;
+  transition: all 200ms ease-in-out;
+  width: 300px;
+}
+h1 {
+  font-size: 68px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+}
