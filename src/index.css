@@ -131,6 +131,10 @@ footer {
   transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px; /* Decrease the font size for mobile view */
+  }
+
   .button-links {
     display: flex;
     flex-direction: column;
@@ -138,7 +142,7 @@ footer {
   }
 
   .button-links button {
-    width: auto;
-    margin: 10px;
+    width: 80%; /* Set all buttons to the same width */
+    margin: 10px auto; /* Center the buttons horizontally and add margin */
   }
 }
