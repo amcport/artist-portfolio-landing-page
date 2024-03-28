@@ -131,9 +131,14 @@ footer {
   transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
+  .container {
+    text-align: center; /* Center align the container content */
+  }
+
   .images {
     justify-content: center;
   }
+
   .images img {
     margin: 10px 0;
   }
@@ -151,6 +156,6 @@ footer {
   }
 
   .button-links {
-    text-align: center;
+    text-align: center; /* Center align the buttons */
   }
 }
