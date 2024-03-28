@@ -109,7 +109,6 @@ footer {
 .button-links button:hover {
   background-color: rgb(102, 204, 0);
   cursor: pointer;
-  margin-left: 20px;
 }
 
 .button-links button a {
@@ -164,7 +163,7 @@ footer {
   .button-links button {
     display: inline-block;
     padding: 15px 30px;
-    margin: 10px;
+    margin-right: 10px;
     border-radius: 8px;
     font-size: 18px;
     text-align: center;
