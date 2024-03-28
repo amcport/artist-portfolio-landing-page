@@ -1,6 +1,10 @@
-.a button {
-  display: block;
-  margin-bottom: 10px;
+body {
+  background: linear-gradient(
+    108.9deg,
+    rgb(163, 217, 221) 10.4%,
+    rgb(174, 250, 182) 56.2%,
+    rgb(238, 243, 220) 86.1%
+  );
 }
 h1 {
   color: rgb(153, 255, 0);
@@ -8,7 +12,7 @@ h1 {
 h1 {
   font-size: 68px;
   font-family: "Rubik Scribble", system-ui;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   box-shadow: 0 0 10px rgba(153, 255, 0, 0.5);
 }
@@ -25,9 +29,13 @@ footer {
   text-align: center;
   padding: 30px;
 }
+.a button {
+  display: block;
+  margin-bottom: 10px;
+}
 .container {
   display: block;
-  margin: 0 auto;
+  margin: 65px auto;
   text-align: center;
   max-width: 900px;
   background-color: rgb(124, 72, 215);
