@@ -107,7 +107,7 @@ footer {
 }
 
 .button-links button:hover {
-  background-color: rgb(102, 204, 0); /* Darker shade of green on hover */
+  background-color: rgb(102, 204, 0);
   cursor: pointer;
 }
 
@@ -124,17 +124,25 @@ footer {
   margin: 5px;
   border-radius: 10%;
   box-shadow: 10px 5px 5px black;
-  transition: transform 0.3s ease; /* Adding transition for smooth animation */
+  transition: transform 0.3s ease;
 }
 
 .images img:hover {
-  transform: scale(1.1); /* Scale the image to 110% on hover */
+  transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
   .images {
-    justify-content: center; /* Center the images */
+    justify-content: center;
   }
   .images img {
-    margin: 10px 0; /* Add vertical margin to space the images */
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .images img:hover {
+    transform: none;
   }
 }
