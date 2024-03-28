@@ -145,4 +145,12 @@ footer {
   .images img:hover {
     transform: none;
   }
+
+  .about-the-artist p {
+    text-align: justify;
+  }
+
+  .button-links {
+    text-align: center;
+  }
 }
