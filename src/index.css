@@ -156,6 +156,9 @@ footer {
   }
 
   .button-links {
-    text-align: center; /* Center align the buttons */
+    text-align: center;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
   }
 }
