@@ -132,7 +132,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .container {
-    text-align: center; /* Center align the container content */
+    text-align: center;
   }
 
   .images {
@@ -157,8 +157,30 @@ footer {
 
   .button-links {
     text-align: center;
+    margin-top: 20px;
+  }
+
+  .button-links button {
     display: inline-block;
     padding: 15px 30px;
     margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: rgb(153, 255, 0);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-links button:hover {
+    background-color: rgb(102, 204, 0);
+    cursor: pointer;
+  }
+
+  .button-links button a {
+    text-decoration: none;
   }
 }
